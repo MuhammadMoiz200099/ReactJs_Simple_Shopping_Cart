@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("./images/bg.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.hero-text h1 {
+  margin-top: 15%;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+  font-size: 56px;
+  color: white;
+  font-weight: 600;
+}
+
+.demo-text p {
+  margin-bottom: 60px;
+  color: white;
+  font-size: 26px;
+}
+
+.value-buttons {
+  margin-bottom: 120px;
+  color: white;
+}
+
+.buttonOne {
+  border: 2px solid #ff5733;
+  padding: 16px 40px;
+  color: white;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 18px;
+  background-color: #ff5733;
+}
+
+.buttonOne:hover {
+  text-decoration: none;
+  border: 2px dashed white;
+  color: white;
+  background: transparent !important;
+}
+
+.buttonTwo {
+  border: 2px groove white;
+  padding: 16px 40px;
+  color: white;
+  margin-left: 30px;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.buttonTwo:hover {
+  border-style: dashed;
+  text-decoration: none;
+  color: white;
+  animation: 0.2s ease-in-out;
+}
+
+/* page scroller */
+
+::-webkit-scrollbar {
+  width: 13px;
+  background-color: #222;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #222238;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+  height: 150px;
+}
