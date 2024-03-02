@@ -1,10 +1,11 @@
-const ProductsList = [
+const PRODUCT_DATA = [
   {
     id: "ABC123",
-    img: require("./../images/iphone.png"),
+    img: require("./../assets/iphone.png"),
     title: "Iphone X",
     description: "The best smart phone avaliable on earth",
     price: 100,
+    brand: "Apple",
     varients: [
       {
         title: "Capacity",
@@ -44,10 +45,11 @@ const ProductsList = [
   },
   {
     id: "ABC456",
-    img: require("./../images/shoes.png"),
+    img: require("./../assets/shoes.png"),
     title: "Cat Shoes",
     description: "The best shoes avaliable on earth",
     price: 150,
+    brand: "Caterpiller",
     varients: [
       {
         title: "Shoe Size",
@@ -95,10 +97,11 @@ const ProductsList = [
   },
   {
     id: "ABC789",
-    img: require("./../images/bags.png"),
+    img: require("./../assets/bags.png"),
     title: "Bags",
     description: "The best Bags avaliable on earth",
     price: 60,
+    brand: "American Tourister",
     varients: [
       {
         title: "Bags Size",
@@ -138,10 +141,11 @@ const ProductsList = [
   },
   {
     id: "ABC012",
-    img: require("./../images/shirts.png"),
+    img: require("./../assets/shirts.png"),
     title: "T shirts",
     description: "The best T shirts avaliable on earth",
     price: 20,
+    brand: "Gucci",
     varients: [
       {
         title: "Size",
@@ -181,10 +185,11 @@ const ProductsList = [
   },
   {
     id: "ABC023",
-    img: require("./../images/pants.png"),
+    img: require("./../assets/pants.png"),
     title: "T shirts",
     description: "The best T shirts avaliable on earth",
     price: 45,
+    brand: "Zara's",
     varients: [
       {
         title: "Size",
@@ -224,10 +229,11 @@ const ProductsList = [
   },
   {
     id: "ABC034",
-    img: require("./../images/watchs.png"),
-    title: "Rollex Watch",
+    img: require("./../assets/watchs.png"),
+    title: "Rollex AT508 Watch",
     description: "The best watch avaliable on earth",
     price: 200,
+    brand: "Rollex",
     varients: [
       {
         title: "Rist Size",
@@ -267,4 +273,4 @@ const ProductsList = [
   }
 ];
 
-export default ProductsList;
+export default PRODUCT_DATA;
