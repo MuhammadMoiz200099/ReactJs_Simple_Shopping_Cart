@@ -2,6 +2,8 @@
 
 A Small Shopping Cart Application for the beginners. 
 
+[Live Demo](https://react-js-simple-shopping-cart.vercel.app/shop/home)
+
 ### Tech Stack -> React JS, Tailwindcss
 
 * User can See all available products.
